@@ -13,7 +13,7 @@ export const InfoCard: FC = () => {
   const infoItems: InfoItem[] = [
     { label: 'Fullname', value: 'Phạm Lê Anh Duy', icon: User },
     { label: 'DoB', value: '15/09/2005', icon: Calendar },
-    { label: 'Email', value: 'miuchoan@gmail.com', icon: Mail },
+    { label: 'Email', value: 'anhduy15190@gmail.com', icon: Mail },
     { 
       label: 'Facebook', 
       value: 'Anh Duy', 
