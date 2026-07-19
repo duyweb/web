@@ -1,7 +1,7 @@
-import React from 'react';
 import { Code, Wrench, Monitor, Globe, Heart } from 'lucide-react';
+import type { FC } from 'react';
 
-export const TechnicalSkills: React.FC = () => {
+export const TechnicalSkills: FC = () => {
   const skillCategories = [
     {
       title: 'Programming',

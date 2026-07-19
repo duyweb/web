@@ -1,27 +1,24 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
+const [owner, repository] = (process.env.GITHUB_REPOSITORY ?? '').split('/');
+const isProjectPage = Boolean(
+  process.env.GITHUB_ACTIONS &&
+    owner &&
+    repository &&
+    repository !== `${owner}.github.io`,
+);
+
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  // A repository site lives at /<repository>/; a <owner>.github.io site lives at /.
+  base: isProjectPage ? `/${repository}/` : '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    sourcemap: true,
-    manifest: true,
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
-      },
-    },
-  },
-  optimizeDeps: {
-    include: ['react', 'react-dom'],
-    exclude: ['lucide-react'],
+    sourcemap: false,
   },
   server: {
     port: 3000,
-    open: true,
   },
 });

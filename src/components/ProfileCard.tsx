@@ -1,5 +1,5 @@
-import React from 'react';
-import { Mail, Calendar, MessageSquare, Send } from 'lucide-react';
+import { Github, Mail, Send } from 'lucide-react';
+import type { FC } from 'react';
 
 interface ProfileCardProps {
   name: string;
@@ -8,7 +8,7 @@ interface ProfileCardProps {
   description: string;
 }
 
-export const ProfileCard: React.FC<ProfileCardProps> = ({ name, title, avatar, description }) => {
+export const ProfileCard: FC<ProfileCardProps> = ({ name, title, avatar, description }) => {
   return (
     <div className="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-purple-500 transition-all duration-300">
       <div className="flex flex-col items-center text-center">
@@ -24,13 +24,13 @@ export const ProfileCard: React.FC<ProfileCardProps> = ({ name, title, avatar, d
         <p className="text-gray-300 text-sm leading-relaxed mb-6">{description}</p>
         
         <div className="flex space-x-4">
-          <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
-            <MessageSquare className="w-5 h-5" />
+          <a href="https://github.com/duyweb" target="_blank" rel="noreferrer" aria-label="GitHub" className="text-gray-400 hover:text-white transition-colors duration-200">
+            <Github className="w-5 h-5" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-200">
+          <a href="mailto:miuchoan@gmail.com" aria-label="Email" className="text-gray-400 hover:text-purple-400 transition-colors duration-200">
             <Mail className="w-5 h-5" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-green-400 transition-colors duration-200">
+          <a href="https://www.facebook.com/anh.linh.263037" target="_blank" rel="noreferrer" aria-label="Facebook" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
             <Send className="w-5 h-5" />
           </a>
         </div>

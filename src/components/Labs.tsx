@@ -1,5 +1,6 @@
-import React from 'react';
-import { BookOpen, ExternalLink, Code2, Terminal, Shield, Database, Network, Lock, Bug, Search, FileText, Cpu, Globe, Zap, Key } from 'lucide-react';
+import { BookOpen, ExternalLink, Code2, Terminal, Shield, Database, Network, Lock, FileText, Cpu, Globe } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
+import type { FC } from 'react';
 
 interface Lab {
   id: number;
@@ -7,12 +8,12 @@ interface Lab {
   description: string;
   difficulty: 'Beginner' | 'Intermediate' | 'Advanced';
   category: string;
-  icon: React.ComponentType<any>;
+  icon: LucideIcon;
   link: string;
   color: string;
 }
 
-export const Labs: React.FC = () => {
+export const Labs: FC = () => {
   const labs: Lab[] = [
     {
       id: 1,

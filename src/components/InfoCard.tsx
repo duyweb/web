@@ -1,10 +1,11 @@
 import { User, Calendar, Mail, Hash, Send } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 import type { FC } from 'react';
 
 interface InfoItem {
   label: string;
   value: string;
-  icon: React.ComponentType<any>;
+  icon: LucideIcon;
   link?: string;
 }
 

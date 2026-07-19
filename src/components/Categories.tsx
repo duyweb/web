@@ -1,7 +1,7 @@
-import React from 'react';
 import { Shield, FileText, Trophy, Tag } from 'lucide-react';
+import type { FC } from 'react';
 
-export const Categories: React.FC = () => {
+export const Categories: FC = () => {
   const categories = [
     { name: 'Malware Analysis', count: 0, icon: Shield, color: 'text-red-400 bg-red-400/10' },
     { name: 'Blog', count: 0, icon: FileText, color: 'text-blue-400 bg-blue-400/10' },
@@ -25,7 +25,7 @@ export const Categories: React.FC = () => {
           {categories.map((category, index) => (
             <div
               key={index}
-              className="flex items-center justify-between p-3 rounded-lg bg-gray-700/50 hover:bg-gray-700 transition-colors duration-200 cursor-pointer group"
+              className="flex items-center justify-between p-3 rounded-lg bg-gray-700/50 group"
             >
               <div className="flex items-center space-x-3">
                 <div className={`p-2 rounded-lg ${category.color}`}>
@@ -53,7 +53,7 @@ export const Categories: React.FC = () => {
           {tags.map((tag, index) => (
             <span
               key={index}
-              className="px-3 py-1 bg-gradient-to-r from-pink-500/20 to-purple-500/20 text-pink-400 rounded-full text-xs font-medium hover:from-pink-500/30 hover:to-purple-500/30 transition-all duration-200 cursor-pointer"
+              className="px-3 py-1 bg-gradient-to-r from-pink-500/20 to-purple-500/20 text-pink-400 rounded-full text-xs font-medium"
             >
               #{tag}
             </span>
