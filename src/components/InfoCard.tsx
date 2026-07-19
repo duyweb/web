@@ -16,9 +16,9 @@ export const InfoCard: FC = () => {
     { label: 'Email', value: 'miuchoan@gmail.com', icon: Mail },
     { 
       label: 'Facebook', 
-      value: 'Ánh Linh', 
+      value: 'Anh Duy', 
       icon: Send,
-      link: 'https://www.facebook.com/anh.linh.263037'
+      link: 'https://www.facebook.com/anh.duy.263037'
     }
   ];
 
