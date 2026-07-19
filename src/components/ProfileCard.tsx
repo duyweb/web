@@ -24,10 +24,10 @@ export const ProfileCard: FC<ProfileCardProps> = ({ name, title, avatar, descrip
         <p className="text-gray-300 text-sm leading-relaxed mb-6">{description}</p>
         
         <div className="flex space-x-4">
-          <a href="https://github.com/duyweb" target="_blank" rel="noreferrer" aria-label="GitHub" className="text-gray-400 hover:text-white transition-colors duration-200">
+          <a href="https://github.com/duyweb/web" target="_blank" rel="noreferrer" aria-label="GitHub repository" className="text-gray-400 hover:text-white transition-colors duration-200">
             <Github className="w-5 h-5" />
           </a>
-          <a href="mailto:miuchoan@gmail.com" aria-label="Email" className="text-gray-400 hover:text-purple-400 transition-colors duration-200">
+          <a href="https://www.linkedin.com/in/anh-duy-38aa42422/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-purple-400 transition-colors duration-200">
             <Mail className="w-5 h-5" />
           </a>
           <a href="https://www.facebook.com/anh.linh.263037" target="_blank" rel="noreferrer" aria-label="Facebook" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
