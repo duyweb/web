@@ -30,7 +30,14 @@ export const TechnicalSkills: FC = () => {
     {
       title: 'Interests',
       icon: Heart,
-      skills: ['Reverse Engineering', 'Malware Researching', 'Cybersecurity'],
+      skills: [
+        'Reverse Engineering',
+        'Malware Researching',
+        'Cybersecurity',
+        'System Administrator',
+        'Network Engineer',
+        'Network Security',
+      ],
       color: 'text-red-400'
     }
   ];
