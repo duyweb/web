@@ -2,7 +2,7 @@
 
 **Information Security** | Cybersecurity | Reverse Engineering | Malware Research
 
-[Portfolio](https://duyweb.github.io/web/) | [GitHub repository](https://github.com/duyweb/web) | [LinkedIn](https://www.linkedin.com/in/anh-duy-38aa42422/) | [Facebook](https://www.facebook.com/anh.linh.263037)
+[Portfolio](https://duyweb.github.io/miuchanprofile/) | [GitHub repository](https://github.com/duyweb/miuchanprofile) | [LinkedIn](https://www.linkedin.com/in/anh-duy-38aa42422/) | [Facebook](https://www.facebook.com/anh.linh.263037)
 
 ## Giới thiệu
 
@@ -30,7 +30,7 @@ Phát triển kiến thức và kỹ năng thực hành trong lĩnh vực phân 
 - **Trang hồ sơ cá nhân:** portfolio được xây dựng bằng React, Tailwind CSS và xuất bản qua GitHub Pages.
 - **CertLedger:** hệ thống Flask mô phỏng phát hành, xác thực, tra cứu và thu hồi văn bằng số bằng blockchain cục bộ. [Xem repository](https://github.com/DuyShiba/xay-dung-he-thong-xac-thuc-van-bang-so-dua-tren-blockchain)
 - **Encrypted Traffic App Classifier:** pipeline Random Forest phân loại ứng dụng từ lưu lượng TLS/HTTPS đã mã hóa mà không giải mã payload. [Xem repository](https://github.com/DuyShiba/Encrypted-Traffic-App-Classifier)
-- **Web Development Labs:** hai bài web tiêu biểu, xem tại [portfolio](https://duyweb.github.io/web/).
+- **Web Development Labs:** hai bài web tiêu biểu, xem tại [portfolio](https://duyweb.github.io/miuchanprofile/).
 
 ## Liên hệ
 
