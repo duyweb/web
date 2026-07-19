@@ -4,7 +4,7 @@ import { ProfileCard } from './components/ProfileCard';
 import { InfoCard } from './components/InfoCard';
 import { TechnicalSkills } from './components/TechnicalSkills';
 import { Categories } from './components/Categories';
-import { Labs } from './components/Labs';
+import { Projects } from './components/Projects';
 const App: FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
@@ -35,9 +35,9 @@ const App: FC = () => {
           </div>
         </div>
 
-        {/* Labs Section - Full Width */}
+        {/* Selected Projects - Full Width */}
         <div className="mt-8">
-          <Labs />
+          <Projects />
         </div>
 
         {/* Footer */}

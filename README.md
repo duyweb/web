@@ -6,7 +6,7 @@
 
 ## Giới thiệu
 
-Tôi quan tâm đến an toàn thông tin, đặc biệt là reverse engineering, phân tích mã độc và thực hành cybersecurity. Repository này là hồ sơ kỹ thuật cá nhân, đồng thời lưu trữ các bài lab phát triển web của tôi.
+Tôi quan tâm đến an toàn thông tin, đặc biệt là reverse engineering, phân tích mã độc và thực hành cybersecurity. Repository này là hồ sơ kỹ thuật cá nhân và tập hợp các project thực hành của tôi.
 
 ## Mục tiêu chuyên môn
 
@@ -28,7 +28,9 @@ Phát triển kiến thức và kỹ năng thực hành trong lĩnh vực phân 
 ## Dự án nổi bật
 
 - **Trang hồ sơ cá nhân:** portfolio được xây dựng bằng React, Tailwind CSS và xuất bản qua GitHub Pages.
-- **Security Labs:** bộ sưu tập 14 bài lab phát triển web, xem tại [portfolio](https://duyweb.github.io/web/).
+- **CertLedger:** hệ thống Flask mô phỏng phát hành, xác thực, tra cứu và thu hồi văn bằng số bằng blockchain cục bộ. [Xem repository](https://github.com/DuyShiba/xay-dung-he-thong-xac-thuc-van-bang-so-dua-tren-blockchain)
+- **Encrypted Traffic App Classifier:** pipeline Random Forest phân loại ứng dụng từ lưu lượng TLS/HTTPS đã mã hóa mà không giải mã payload. [Xem repository](https://github.com/DuyShiba/Encrypted-Traffic-App-Classifier)
+- **Web Development Labs:** hai bài web tiêu biểu, xem tại [portfolio](https://duyweb.github.io/web/).
 
 ## Liên hệ
 
